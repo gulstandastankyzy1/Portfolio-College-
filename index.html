@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="logo" href="#">Portfolio</a>
+        <div class="nav-links">
+          <a href="#work">Works</a>
+          <a
+            href="https://github.com/gulstandastankyzy8324-blip"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+        </div>
+      </nav>
+
+      <section class="intro">
+        <h1>Serikmolda Gulstan Dastankyzy</h1>
+        <p class="intro-text">
+         3F-2
+        </p>
+        <div class="intro-links">
+          <a
+            href="https://github.com/gulstandastankyzy8324-blip"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View GitHub profile
+          </a>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="work-section" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2 id="work-title">My Work</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <img
+              src="photos/web first.png"
+              alt="Pandora website screenshot"
+              class="project-image gallery-image"
+            />
+            <div class="project-content">
+              <p class="project-type">Web Development</p>
+              <h3>Pandora Website</h3>
+              <p>
+                A clean website project with several pages and a polished visual
+                layout.
+              </p>
+              <div class="screenshot-grid" aria-label="Pandora website screenshots">
+                <img class="gallery-image" src="photos/web second.png" alt="Pandora website screenshot 2" />
+                <img class="gallery-image" src="photos/web third.png" alt="Pandora website screenshot 3" />
+                <img class="gallery-image" src="photos/web fourth.png" alt="Pandora website screenshot 4" />
+                <img class="gallery-image" src="photos/web fifth.png" alt="Pandora website screenshot 5" />
+                <img class="gallery-image" src="photos/web sixth.png" alt="Pandora website screenshot 6" />
+                <img class="gallery-image" src="photos/web seventh.png" alt="Pandora website screenshot 7" />
+                <img class="gallery-image" src="photos/web eight.png" alt="Pandora website screenshot 8" />
+                <img class="gallery-image" src="photos/web nine.png" alt="Pandora website screenshot 9" />
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://gulstandastankyzy8324-blip.github.io/Pandora-website/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View project
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img
+              src="photos/game first.png"
+              alt="Space Survival game screenshot"
+              class="project-image gallery-image"
+            />
+            <div class="project-content">
+              <p class="project-type">Mobile Development</p>
+              <h3>Space Survival</h3>
+              <p>
+                A browser game project focused on survival gameplay and a space
+                theme.
+              </p>
+              <div class="screenshot-grid" aria-label="Space Survival screenshots">
+                <img class="gallery-image" src="photos/game second.png" alt="Space Survival screenshot 2" />
+                <img class="gallery-image" src="photos/game third.png" alt="Space Survival screenshot 3" />
+                <img class="gallery-image" src="photos/game fourth.png" alt="Space Survival screenshot 4" />
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://gulstandastankyzy8324-blip.github.io/SpaceSurvival/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View project
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img
+              src="photos/graph first.png"
+              alt="Titan Court graphic design screenshot"
+              class="project-image gallery-image"
+            />
+            <div class="project-content">
+              <p class="project-type">Graphic Design</p>
+              <h3>Titan Court</h3>
+              <p>
+                A Behance graphic design project shown with numbered screenshots
+                from the final work.
+              </p>
+              <div class="screenshot-grid" aria-label="Titan Court screenshots">
+                <img class="gallery-image" src="photos/graph second.png" alt="Titan Court screenshot 2" />
+                <img class="gallery-image" src="photos/graph third.png" alt="Titan Court screenshot 3" />
+                <img class="gallery-image" src="photos/graph fourth.png" alt="Titan Court screenshot 4" />
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://www.behance.net/gallery/247724713/Titan-Court"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View project
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button class="lightbox-close" type="button" aria-label="Close image">
+        Close
+      </button>
+      <button class="lightbox-button lightbox-prev" type="button" aria-label="Previous image">
+        Prev
+      </button>
+      <img class="lightbox-image" src="" alt="" />
+      <button class="lightbox-button lightbox-next" type="button" aria-label="Next image">
+        Next
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
